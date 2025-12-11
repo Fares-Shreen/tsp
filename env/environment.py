@@ -228,7 +228,7 @@ def visualize_cities(world, path=None):
 def create_animation(world, path):
     """ Animation Visualization """
     # Setup Figure (Standard 8x6)
-    fig, ax = plt.subplots(figsize=(6, 6), dpi=100)
+    fig, ax = plt.subplots(figsize=(7, 7), dpi=100)
 
     # Background
     x_coords = [city.x for city in world.cities]

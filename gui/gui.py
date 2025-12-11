@@ -30,7 +30,7 @@ def static_cities_optimization_process(myTimeWeight,seed):
     plt.clf()
     random.seed(seed)
     np.random.seed(seed)
-    cities = generate_random_cities(10)
+    cities = generate_random_cities(7)
     world = Map(cities)
     dist_mat = world.distance_matrix
     vel_mat = world.velocity_matrix
